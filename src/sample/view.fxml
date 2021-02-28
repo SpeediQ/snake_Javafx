@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="btn1" layoutX="19.0" layoutY="217.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="209.0" text="Classic">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Button fx:id="btn2" layoutX="377.0" layoutY="217.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="209.0" text="Wild">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <ImageView fitHeight="202.0" fitWidth="445.0" layoutX="83.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/headMain.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="19.0" layoutY="278.0" maxHeight="154.0" prefHeight="154.0" prefWidth="250.0" text="Classic version of the game.&#10;Collect food and grow.&#10;Game Over:&#10;- eating yourself&#10;- collision with the wall" />
+      <TextArea editable="false" layoutX="336.0" layoutY="278.0" maxHeight="154.0" prefHeight="154.0" prefWidth="250.0" text="A wild version of the game.&#10;Collect food and grow.&#10;Watch out for mushrooms, you can go&#10; crazy because of them.&#10;Walls are no longer an obstacle for you.&#10;Game Over:&#10;- eating yourself" />
+   </children>
+</AnchorPane>
